@@ -1,0 +1,82 @@
+.card-img-top
+{
+	opacity: 0.5;
+}
+
+.card:hover .card-img-top
+{
+	opacity: 1;
+}
+
+.card:hover .titregandalf, .card:hover .titregollum, .card:hover .titregimli, .card:hover .rewardgandalf, .card:hover .rewardgollum, .card:hover .rewardgimli
+{
+	opacity: 0;
+}
+
+.card:hover .card-text-end
+{
+	opacity: 1;
+	font-size: 40px;
+	color: white;
+}
+
+.titregandalf, .titregollum, .titregimli
+{
+	font-size: 40px;
+}
+
+.rewardgandalf, .rewardgollum, .rewardgimli
+{
+	font-size: 20px;
+}
+
+.mille
+{
+	color: orange;
+}
+
+.card-text-end
+{
+	opacity: 0;
+}
+
+.nav, .nav-pills, .nav-justified
+{
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+h3
+{
+  font-size: 100px;
+  text-shadow: 3px 3px 3px red; 
+}
+
+h1
+{
+  text-align: center;
+  font-family: 'Ruslan Display', cursive;
+  text-decoration: underline;
+}
+
+.mr-3
+{
+  width: 200px;
+}
+
+table, td
+{
+  border: 2px solid black;
+}
+
+td
+{
+  text-align: center;
+  width: 50%;
+}
+
+.anneau
+{
+  width: 100px;
+}
